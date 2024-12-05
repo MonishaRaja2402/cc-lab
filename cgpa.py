@@ -10,15 +10,15 @@ def cgpa_calculator():
 
         total_score_obtainable += unit * 5
 
-        if score >= 70:
-            grade = 5
+        if score >= 90:
+            grade = 10
+        elif score >= 80:
+            grade = 9
+        elif score >= 70:
+            grade = 8
         elif score >= 60:
-            grade = 4
+            grade = 7
         elif score >= 50:
-            grade = 3
-        elif score >= 45:
-            grade = 2
-        elif score >= 40:
             grade = 1
         else:
             grade = 0
